@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapPin, Clock, Users, Phone, ExternalLink } from 'lucide-react';
+import { MapPin, Clock, Users, Phone, ExternalLink, MessageCircle } from 'lucide-react';
 import { practicalInfo, contactInfo } from '../data/info';
 
 const InfoSection = () => {
@@ -78,14 +78,15 @@ const InfoSection = () => {
                     <h4 style={{marginLeft: '0.5rem'}}>{info.title}</h4>
                   </div>
                   {info.icon === 'Phone' ? (
-                    <p>
-                      <button 
-                        onClick={openWhatsApp}
-                        className="text-green-600 hover:text-green-700 font-bold underline"
-                      >
-                        {info.content}
-                      </button>
-                    </p>
+                    <button 
+                      onClick={openWhatsApp}
+                      className="footer-phone-btn"
+                      aria-label="Ligar ou enviar WhatsApp"
+                    >
+                      <Phone size={18} />
+                      <span>{info.content}</span>
+                      <MessageCircle size={16} />
+                    </button>
                   ) : (
                     <p><strong>{info.content}</strong></p>
                   )}
@@ -103,16 +104,18 @@ const InfoSection = () => {
                 <p>
                   <strong>Endereço:</strong> {contactInfo.address.fullAddress}
                 </p>
-                                 <p>
-                   <strong>Telefone:</strong> 
-                   <button 
-                     onClick={openWhatsApp}
-                     className="text-green-600 hover:text-green-700 font-medium ml-2 underline"
-                   >
-                     {contactInfo.phone}
-                   </button>
-                   <span className="text-gray-600 ml-1">(WhatsApp)</span>
-                 </p>
+                                <p>
+                  <strong>Telefone:</strong>
+                  <button 
+                    onClick={openWhatsApp}
+                    className="footer-phone-btn ml-2"
+                    aria-label="Ligar ou enviar WhatsApp"
+                  >
+                    <Phone size={18} />
+                    <span>{contactInfo.phone}</span>
+                    <MessageCircle size={16} />
+                  </button>
+                </p>
                 
                 {/* Mapa */}
                 <div style={{marginTop: '2rem', marginBottom: '1rem'}}>
@@ -142,11 +145,11 @@ const InfoSection = () => {
           {/* Horários de Funcionamento */}
           <section className="structure-section">
             <h3>Horários de Funcionamento</h3>
-            <div className="structure-grid">
+            <div className="schedule-list">
               {Object.entries(contactInfo.schedule).map(([day, hours]) => (
-                <div key={day} className="structure-item">
-                  <h4 className="capitalize">{day.replace('-feira', '')}</h4>
-                  <p><strong className="text-green-600">{hours}</strong></p>
+                <div key={day} className="schedule-item">
+                  <span className="schedule-day">{day.charAt(0).toUpperCase() + day.slice(1).replace('-feira', '')}</span>
+                  <span className="schedule-hours">{hours}</span>
                 </div>
               ))}
             </div>

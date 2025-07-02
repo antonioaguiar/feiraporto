@@ -18,8 +18,10 @@ export default function AboutPage() {
               <div className="intro-text">
                 <h3>Mercado Varejista Antônio Moisés Nadaf</h3>
                 <p className="lead">
-                  Uma tradição centenária que conecta produtores e consumidores no coração de Cuiabá, 
-                  preservando a cultura alimentar e o comércio local há mais de 125 anos.
+                  Com mais de 60 anos de história, o Mercado do Porto é um dos principais pontos 
+                  comerciais e culturais de Cuiabá. Começou como uma pequena feira na década de 1960 
+                  com pouco mais de 10 feirantes e hoje representa um patrimônio histórico, artístico, 
+                  cultural e imaterial do estado de Mato Grosso.
                 </p>
               </div>
               
@@ -44,16 +46,19 @@ export default function AboutPage() {
             <div className="cultural-content">
               <div className="cultural-text">
                 <p>
-                  O Mercado do Porto representa mais que um simples centro de abastecimento: é um patrimônio 
-                  cultural vivo que mantém tradições centenárias e conecta gerações de cuiabanos. Tombado 
-                  pelo IPHAN em 1983, o mercado preserva não apenas sua arquitetura histórica, mas também 
-                  o modo de vida e as relações comerciais que caracterizam a identidade local.
+                  O Mercado do Porto é um símbolo da cultura cuiabana e da região do cerrado, 
+                  refletindo a identidade local por meio da oferta de produtos típicos e da 
+                  gastronomia regional, como o pixé, furrundú, doce de caju, bananinhas fritas 
+                  e pequi. Além de ser um importante entreposto comercial, o mercado mantém 
+                  tradições locais, como o método tradicional de preparo de peixes, valorizando 
+                  os saberes dos feirantes e pescadores da Baixada Cuiabana.
                 </p>
                 <p>
-                  Localizado estrategicamente no centro da capital, próximo ao Rio Cuiabá, o mercado 
-                  continua sendo um ponto de encontro fundamental para a comunidade, onde sabores, 
-                  histórias e tradições se misturam diariamente, perpetuando o legado de mais de um 
-                  século de história comercial em Mato Grosso.
+                  Com cerca de 167 permissionários distribuídos em setores como pescados, açougues, 
+                  doces, hortigranjeiros, confecções e utilidades domésticas, o mercado movimenta 
+                  aproximadamente R$ 240 milhões por ano. O reconhecimento como patrimônio cultural 
+                  em 2021 reforça seu papel na preservação da memória e da cultura popular cuiabana, 
+                  sendo também um ponto turístico relevante para a capital mato-grossense.
                 </p>
               </div>
             </div>

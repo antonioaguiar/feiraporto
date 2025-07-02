@@ -20,7 +20,7 @@ const InfoPage = () => {
         </div>
         <InfoSection />
       </main>
-      <Footer />
+      <Footer /> 
     </div>
   );
 };

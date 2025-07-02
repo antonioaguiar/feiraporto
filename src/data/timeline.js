@@ -1,51 +1,43 @@
 export const timelineEvents = [
   {
     id: 1,
-    year: "1899",
-    title: "Construção Original",
-    description: "Construção do primeiro Mercado Municipal do Peixe em Cuiabá, estabelecendo as bases do que viria a se tornar o atual Mercado do Porto",
-    sourceId: 3,
-    sourceUrl: "https://extensaoantropologia.wordpress.com/2013/04/11/a-historia-do-mercado-do-porto-de-cuiaba/"
+    year: "Década de 1960",
+    title: "Surgimento da Feira",
+    description: "Surgimento da feira pública popular na região central de Cuiabá, inicialmente na praça Rachid Jaudy, na avenida Isaac Póvoas, com pouco mais de 10 feirantes vendendo seus produtos em charretes e barracas improvisadas",
+    sourceId: 1,
+    sourceUrl: "https://www.al.mt.gov.br/midia/texto/mercado-do-porto-e-reconhecido-como-patrimonio-historico-artistico-e-cultural/visualizar"
   },
   {
     id: 2,
-    year: "Até 1970",
-    title: "Feira do Porto no Arsenal",
-    description: "Funcionamento da tradicional Feira do Porto nas instalações do Arsenal de Guerra, próximo ao Rio Cuiabá, consolidando a tradição comercial da região",
-    sourceId: 3,
-    sourceUrl: "https://extensaoantropologia.wordpress.com/2013/04/11/a-historia-do-mercado-do-porto-de-cuiaba/"
+    year: "Décadas seguintes",
+    title: "Mudanças de Local",
+    description: "A feira mudou de local diversas vezes devido ao crescimento do número de feirantes e consumidores, passando por áreas como o espaço entre o estádio Presidente Dutra e o Arsenal de Guerra, a Avenida da Prainha, o bairro Verdão, a praça Maria Ricci no Porto e o Mercado do Peixe (hoje Museu do Rio)",
+    sourceId: 1,
+    sourceUrl: "https://www.al.mt.gov.br/midia/texto/mercado-do-porto-e-reconhecido-como-patrimonio-historico-artistico-e-cultural/visualizar"
   },
   {
     id: 3,
-    year: "1974",
-    title: "Grande Enchente",
-    description: "A histórica enchente do Rio Cuiabá força a transferência definitiva da feira para um local mais seguro, marcando o fim de uma era",
-    sourceId: 3,
-    sourceUrl: "https://extensaoantropologia.wordpress.com/2013/04/11/a-historia-do-mercado-do-porto-de-cuiaba/"
+    year: "1995",
+    title: "Instalação Definitiva",
+    description: "A feira foi instalada definitivamente no local conhecido como Campo do Bode, na avenida 8 de abril, próximo ao córrego Mané Pinto e ao Rio Cuiabá, com prédio próprio para atender feirantes e frequentadores",
+    sourceId: 1,
+    sourceUrl: "https://www.al.mt.gov.br/midia/texto/mercado-do-porto-e-reconhecido-como-patrimonio-historico-artistico-e-cultural/visualizar"
   },
   {
     id: 4,
-    year: "1983",
-    title: "Tombamento pelo IPHAN",
-    description: "Reconhecimento oficial da importância histórica e cultural do conjunto arquitetônico do mercado, garantindo sua preservação para futuras gerações",
+    year: "2019-2023",
+    title: "Requalificação e Modernização",
+    description: "Processo de requalificação e modernização da estrutura, incluindo implantação de novo piso e melhorias na infraestrutura para maior conforto e segurança",
     sourceId: 2,
-    sourceUrl: "http://portal.iphan.gov.br/mt/pagina/detalhes/359"
+    sourceUrl: "https://www.cuiaba.mt.gov.br/noticias/novo-mercado-do-porto-um-espaco-amplo-moderno-e-cultural-que-encanta-os-visitantes"
   },
   {
     id: 5,
-    year: "1995",
-    title: "Inauguração do Mercado Atual",
-    description: "A PRODECAP inaugura o moderno complexo de 26.480 m² com infraestrutura de padrão A, mantendo a tradição comercial em instalações contemporâneas",
-    sourceId: 3,
-    sourceUrl: "https://extensaoantropologia.wordpress.com/2013/04/11/a-historia-do-mercado-do-porto-de-cuiaba/"
-  },
-  {
-    id: 6,
-    year: "2024",
-    title: "Modernização e Requalificação",
-    description: "Início do processo de modernização com telhado de telhas isotérmicas, climatizadores e nova pintura, preparando o mercado para o futuro",
+    year: "2021",
+    title: "Patrimônio Histórico de MT",
+    description: "Reconhecimento oficial do Mercado do Porto como patrimônio histórico, artístico, cultural e imaterial do estado de Mato Grosso, reforçando sua importância cultural e social",
     sourceId: 1,
-    sourceUrl: "https://www.cuiaba.mt.gov.br/noticias/mercado-do-porto-segunda-etapa-do-processo-de-requalificacao-entra-na-reta-final-com-novo-piso-em-fase-de-implantacao"
+    sourceUrl: "https://www.al.mt.gov.br/midia/texto/mercado-do-porto-e-reconhecido-como-patrimonio-historico-artistico-e-cultural/visualizar"
   }
 ];
 
@@ -53,33 +45,33 @@ export const structureInfo = [
   {
     id: 1,
     icon: "Building",
-    title: "26.480 m²",
-    description: "Área total do complexo construído pela PRODECAP em 1995",
-    sourceId: 3,
-    sourceUrl: "https://extensaoantropologia.wordpress.com/2013/04/11/a-historia-do-mercado-do-porto-de-cuiaba/"
+    title: "26,4 mil m²",
+    description: "Área total do complexo que abriga o Mercado do Porto",
+    sourceId: 2,
+    sourceUrl: "https://www.cuiaba.mt.gov.br/noticias/novo-mercado-do-porto-um-espaco-amplo-moderno-e-cultural-que-encanta-os-visitantes"
   },
   {
     id: 2,
     icon: "Store",
-    title: "Padrão A",
-    description: "Infraestrutura moderna que atende rigorosamente todas as exigências dos órgãos de controle",
-    sourceId: 1,
-    sourceUrl: "https://www.cuiaba.mt.gov.br/noticias/mercado-do-porto-segunda-etapa-do-processo-de-requalificacao-entra-na-reta-final-com-novo-piso-em-fase-de-implantacao"
+    title: "480 Boxes Comerciais",
+    description: "Aproximadamente 480 boxes distribuídos em setores específicos para pescados, açougues, frios, doces, lanchonetes, restaurantes, hortigranjeiros, rações, confecções e utilidades domésticas",
+    sourceId: 2,
+    sourceUrl: "https://www.cuiaba.mt.gov.br/noticias/novo-mercado-do-porto-um-espaco-amplo-moderno-e-cultural-que-encanta-os-visitantes"
   },
   {
     id: 3,
     icon: "Award",
-    title: "Melhorias Modernas",
-    description: "Telhado com telhas isotérmicas, climatizadores e nova pintura para maior conforto",
-    sourceId: 1,
-    sourceUrl: "https://www.cuiaba.mt.gov.br/noticias/mercado-do-porto-segunda-etapa-do-processo-de-requalificacao-entra-na-reta-final-com-novo-piso-em-fase-de-implantacao"
+    title: "6,1 mil m² Construídos",
+    description: "Prédio moderno que abriga todos os boxes comerciais com infraestrutura completa e climatização",
+    sourceId: 2,
+    sourceUrl: "https://www.cuiaba.mt.gov.br/noticias/novo-mercado-do-porto-um-espaco-amplo-moderno-e-cultural-que-encanta-os-visitantes"
   },
   {
     id: 4,
     icon: "MapPin",
-    title: "Localização Central",
-    description: "Centro de Cuiabá, próximo ao Rio Cuiabá, mantendo tradição histórica",
-    sourceId: 3,
-    sourceUrl: "https://extensaoantropologia.wordpress.com/2013/04/11/a-historia-do-mercado-do-porto-de-cuiaba/"
+    title: "120 mil visitantes/mês",
+    description: "O mercado funciona de terça a domingo, recebendo em média 120 mil visitantes por mês, próximo ao Rio Cuiabá e à Orla do Porto",
+    sourceId: 2,
+    sourceUrl: "https://www.cuiaba.mt.gov.br/noticias/novo-mercado-do-porto-um-espaco-amplo-moderno-e-cultural-que-encanta-os-visitantes"
   }
 ]; 
