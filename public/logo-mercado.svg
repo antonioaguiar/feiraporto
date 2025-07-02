@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80" width="200" height="80">
+  <!-- Fundo branco -->
+  <rect width="200" height="80" fill="#ffffff" rx="4"/>
+  
+  <!-- Borda laranja esquerda -->
+  <rect x="0" y="0" width="8" height="80" fill="#ff6b35"/>
+  
+  <!-- Borda verde direita -->
+  <rect x="192" y="0" width="8" height="80" fill="#2d8a3e"/>
+  
+  <!-- Texto MERCADO -->
+  <text x="20" y="28" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2d8a3e">MERCADO</text>
+  
+  <!-- Gráfico da feira (tenda estilizada) -->
+  <g transform="translate(20, 32)">
+    <!-- Topo da tenda -->
+    <path d="M0 8 L16 0 L32 8 Z" fill="#2d8a3e"/>
+    <!-- Colunas da tenda -->
+    <rect x="2" y="8" width="2" height="12" fill="#2d8a3e"/>
+    <rect x="6" y="8" width="2" height="12" fill="#2d8a3e"/>
+    <rect x="10" y="8" width="2" height="12" fill="#2d8a3e"/>
+    <rect x="14" y="8" width="2" height="12" fill="#2d8a3e"/>
+    <rect x="18" y="8" width="2" height="12" fill="#2d8a3e"/>
+    <rect x="22" y="8" width="2" height="12" fill="#2d8a3e"/>
+    <rect x="26" y="8" width="2" height="12" fill="#2d8a3e"/>
+    <rect x="30" y="8" width="2" height="12" fill="#2d8a3e"/>
+  </g>
+  
+  <!-- Texto DO PORTO -->
+  <text x="60" y="48" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2d8a3e">DO PORTO</text>
+  
+  <!-- Separador -->
+  <line x1="20" y1="56" x2="180" y2="56" stroke="#2d8a3e" stroke-width="1"/>
+  
+  <!-- Texto CUIABÁ | MT | BRASIL -->
+  <text x="20" y="70" font-family="Arial, sans-serif" font-size="10" fill="#666666">CUIABÁ | MT | BRASIL</text>
+</svg> 
