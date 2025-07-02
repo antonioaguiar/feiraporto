@@ -2,29 +2,29 @@
   "name": "Mercado do Porto",
   "short_name": "Mercado Porto",
   "description": "Mercado do Porto - Tradição e qualidade desde 1899. Frutas, verduras, carnes, peixes frescos e muito mais.",
-  "start_url": "/feira/",
+  "start_url": "/feira",
   "display": "standalone",
   "orientation": "portrait-primary",
   "theme_color": "#439355",
   "background_color": "#ffffff",
-  "scope": "/feira/",
+  "scope": "/feira",
   "lang": "pt-BR",
   "categories": ["food", "shopping", "lifestyle"],
   "icons": [
     {
-      "src": "/favicon.svg",
+      "src": "logo-mercado.svg",
       "sizes": "any",
       "type": "image/svg+xml",
       "purpose": "any maskable"
     },
     {
-      "src": "/logo-mercado.png",
+      "src": "logo-mercado.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/logo-mercado.png",
+      "src": "logo-mercado.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
@@ -32,7 +32,7 @@
   ],
   "screenshots": [
     {
-      "src": "/logo-mercado.png",
+      "src": "logo-mercado.png",
       "sizes": "1280x720",
       "type": "image/png",
       "form_factor": "wide"
